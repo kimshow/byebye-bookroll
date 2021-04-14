@@ -1,5 +1,4 @@
 # Bookroll粉砕!!
----
 京大生あるいは他大生のみなさん、Bookrollに苦しめられていませんか?
 実はBookrollから我々を救う方法が公開されています↓ ありがとう。
 [bookrollをpdfにする方法](https://gist.github.com/watagashi0619/40ba179c9ef7d585246c47c31dab67ed)
@@ -8,7 +7,6 @@
 ちなみにコードがクッソ汚いのはJavaScriptミリしらなのに書いたからです。JSに強い人はissueで修正をどうか投げてください。
 
 ## BookrollをPDFにする手順
----
 1. PDF化したいBookrollのページを開く
 1. JavaScriptのコンソールを開く(Chromeなら右上の縦に3つ丸があるところクリック->その他のツール->デベロッパーツール->Console)
 1. 次のコードを貼り付けてEnter
@@ -113,7 +111,6 @@ if (chips==1){
 
 
 ## 補足
----
 * ダウンロードが始まらないときはページを再読み込みしてからもう1度試してみてください。
 * 環境はwindows10,ブラウザはChrome(ver.89.0.4389.114)で動作することを想定しています。
 * ダウンロードしたやつを再配布するのは禁止、あくまで個人利用に留めて。
@@ -122,7 +119,6 @@ if (chips==1){
 
 
 ## 参考
----
 1. [bookrollからpdfをつくるメモ](https://gist.github.com/watagashi0619/40ba179c9ef7d585246c47c31dab67ed)
 1. [HTML5 の canvas 要素を base64 文字列化し画像として保存する方法まとめ](https://qiita.com/clockmaker/items/924b5b4228484e7a09f0)
 1. [javascriptでsleep的に処理をwaitさせる方法(コピペでOK)](https://hirooooo-lab.com/development/javascript-sleep/#index_id1)
