@@ -38,7 +38,7 @@ async function downloadImages() {
           xhr.open('GET', src, true);
           xhr.responseType = "blob";
           xhr.onload = function() {
-              const fileName = "bookroll"+String(sources.indexOf(src))+".jpg";
+              const fileName = "bookroll"+String(sources.indexOf(src))+".png";
               resolve({ data: this.response, fileName: fileName });
           };
           xhr.onerror = () => resolve({ data: null });

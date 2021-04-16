@@ -1,2 +1,2 @@
 # byebye-bookroll
-bookrollつぶす
+bookroll粉砕!!
